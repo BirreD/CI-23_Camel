@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1987264249, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+  m_Name: COINJParameters
+  m_EditorClassIdentifier: 
+  aircraftName: CI-23 Camel
+  rankRequired: 1
+  airfoils:
+  - name: COINJ_wing
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14169
+        value: 0
+        inSlope: 2.0718234
+        outSlope: 2.0718234
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.1271649
+      - serializedVersion: 3
+        time: -1.492233
+        value: -0.002766233
+        inSlope: -2.0885763
+        outSlope: -2.0885763
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.2777585
+      - serializedVersion: 3
+        time: -0.785
+        value: -0.9
+        inSlope: -0.023071505
+        outSlope: -0.023071505
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.38426352
+      - serializedVersion: 3
+        time: -0.365
+        value: -0.695
+        inSlope: 0.84208614
+        outSlope: 0.84208614
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 1
+      - serializedVersion: 3
+        time: -0.26
+        value: -1
+        inSlope: 0.019799538
+        outSlope: 0.019799538
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.61614555
+      - serializedVersion: 3
+        time: -0.00012555812
+        value: 0.00042958115
+        inSlope: 5.7064605
+        outSlope: 5.7064605
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.14042649
+      - serializedVersion: 3
+        time: 0.26
+        value: 1.0034726
+        inSlope: -0.053375985
+        outSlope: -0.053375985
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.16995811
+        outWeight: 1
+      - serializedVersion: 3
+        time: 0.36484918
+        value: 0.6949963
+        inSlope: 0.9726828
+        outSlope: 0.9726828
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.19688879
+      - serializedVersion: 3
+        time: 0.785
+        value: 0.9
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.57
+        value: 0.0073467577
+        inSlope: -1.9635154
+        outSlope: -1.9635154
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.08661534
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.14159
+        value: 0
+        inSlope: 2.5731626
+        outSlope: 2.5731626
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.046898335
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: -1.51
+        value: 1.7
+        inSlope: -0.005174054
+        outSlope: -0.005174054
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.59302485
+      - serializedVersion: 3
+        time: -0.2
+        value: 0.15099941
+        inSlope: -1.2430803
+        outSlope: -1.2430803
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.3467535
+      - serializedVersion: 3
+        time: 0
+        value: 0.008
+        inSlope: 0.00000007164541
+        outSlope: 0.00000007164541
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1560833
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.149876
+        inSlope: 1.3356287
+        outSlope: 1.3356287
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.2706716
+        outWeight: 0.079623565
+      - serializedVersion: 3
+        time: 1.51
+        value: 1.7
+        inSlope: 0.00041207878
+        outSlope: 0.00041207878
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.51644635
+        outWeight: 0.4459198
+      - serializedVersion: 3
+        time: 3.14159
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  loadouts:
+  - weapons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - weapons:
+    - {fileID: 11400000, guid: 758b407e2556eeb449a7e92208aea005, type: 2}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: bae8af7058f2cc947b449f43a662342c, type: 2}
+    - {fileID: 11400000, guid: bae8af7058f2cc947b449f43a662342c, type: 2}
+    - {fileID: 11400000, guid: 286cc2658bf4f834d956d0d3fb5863a8, type: 2}
+    - {fileID: 11400000, guid: 286cc2658bf4f834d956d0d3fb5863a8, type: 2}
+    - {fileID: 11400000, guid: e1d7f051a9e6b044eb19494838a7b344, type: 2}
+    - {fileID: 11400000, guid: e1d7f051a9e6b044eb19494838a7b344, type: 2}
+  - weapons:
+    - {fileID: 11400000, guid: 758b407e2556eeb449a7e92208aea005, type: 2}
+    - {fileID: 11400000, guid: a51dbbed61fb6ee4d8ec2bb3c77aa6bb, type: 2}
+    - {fileID: 11400000, guid: bae8af7058f2cc947b449f43a662342c, type: 2}
+    - {fileID: 11400000, guid: bae8af7058f2cc947b449f43a662342c, type: 2}
+    - {fileID: 11400000, guid: 0e7c668127efecd40b49be720b6a8b24, type: 2}
+    - {fileID: 11400000, guid: 0e7c668127efecd40b49be720b6a8b24, type: 2}
+    - {fileID: 11400000, guid: e1d7f051a9e6b044eb19494838a7b344, type: 2}
+    - {fileID: 11400000, guid: e1d7f051a9e6b044eb19494838a7b344, type: 2}
+  StandardLoadouts: []
+  DefaultFuelLevel: 0.3
+  liveries:
+  - name: Default
+    faction: {fileID: 0}
+    assetReference:
+      m_AssetGUID: 8ba4503995fb36e4bb15ee418020b136
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  StatusDisplay: {fileID: 1709254077376921, guid: 9f2bd1f3864ab88409ac3c9926acb192,
+    type: 3}
+  HUDExtras: {fileID: 1709254077376921, guid: 66a0870fc98277347bbfb6c189623745, type: 3}
+  takeoffMusic: {fileID: 8300000, guid: 375c306eac3afde449fea677efe85256, type: 3}
+  AoAEffects:
+    AudioClip: {fileID: 8300000, guid: 6c6e931cf339ebe419203a2520c023c4, type: 3}
+    OnsetSpeed: 30
+    FullVolumeSpeed: 222
+    OnsetAlpha: 5
+    FullVolumeAlpha: 45
+    ShakeFactor: 0.12
+  aircraftGLimit: 7.5
+  PIDReferenceAirspeed: 100
+  maxSpeed: 236
+  takeoffSpeed: 55
+  takeoffDistance: 105
+  verticalLanding: 0
+  turningRadius: 1080
+  cornerSpeed: 115
+  approachSpeed: 60
+  landingSpeed: 55
+  shortLandingSpeed: 50
+  cruiseThrottle: 1
+  minimumRadarAlt: 25
+  levelBias: 0.17
+  hoverTiltFactor: 1
+  collectivePID: {x: 0, y: 0, z: 0}
+  hoverPID: {x: 0, y: 0, z: 0}
+  tiltPID: {x: 0, y: 0, z: 0}
+  groundTurningRadius: 10
