@@ -2170,7 +2170,6 @@ MonoBehaviour:
   aircraft: {fileID: 114036828218548272}
   engineSources:
   - {fileID: 1709254077376921}
-  - {fileID: 0}
   joysticks:
   - transform: {fileID: 4891995844532801}
     range: 12
@@ -41217,7 +41216,7 @@ MonoBehaviour:
   m_Script: {fileID: -605777757, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxThrust: 24000
+  maxThrust: 25000
   damageFactor: 1
   engineFire: 0
   turbineAudio: {fileID: 2372385485472783948}
@@ -41254,14 +41253,14 @@ MonoBehaviour:
   nozzles:
   - {fileID: 6139384719095441565}
   vectoringTransforms: []
-  turbineMaxPitch: 0
+  turbineMaxPitch: 2
   minRPM: 600
   maxRPM: 3200
-  maxSpeed: 400
+  maxSpeed: 600
   spoolRate: 500
   startupRate: 200
   fuelConsumptionMin: 0.05
-  fuelConsumptionMax: 0.6
+  fuelConsumptionMax: 0.58
   damageThreshold: 10
   criticalParts:
   - {fileID: 114364392939154294}
@@ -41282,7 +41281,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: f4562dee7cc96254c98d7884b12bbd98, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.2
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -55768,7 +55767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   part: {fileID: 9110878726129713884}
   turbojet: {fileID: 891786565192901990}
-  engine: {fileID: 1709254077376921}
+  engine: {fileID: 0}
   failureEffect: {fileID: 1709254077376921, guid: fb4722f08674da448845d9105e3efadf,
     type: 3}
   thrustTransform: {fileID: 2765514246394855738}
@@ -55875,16 +55874,16 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 03af3a848652aff4c9e9ace2fa917921, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 750
+  MaxDistance: 2000
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -55894,8 +55893,8 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.002
-      value: 1
+      time: 0.0018558502
+      value: 0.92630005
       inSlope: -0.5816334
       outSlope: -0.5816334
       tangentMode: 0
@@ -55903,17 +55902,26 @@ AudioSource:
       inWeight: 0
       outWeight: 0.47263265
     - serializedVersion: 3
-      time: 0.5583562
-      value: 0.2074585
-      inSlope: -1.5527017
-      outSlope: -1.5527017
+      time: 0.4656133
+      value: 0.18289185
+      inSlope: -0.3824314
+      outSlope: -0.3824314
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.18876308
-      outWeight: 0
+      outWeight: 0.1786894
+    - serializedVersion: 3
+      time: 0.7661303
+      value: 0.115861565
+      inSlope: -0.07170616
+      outSlope: -0.07170616
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.37029687
+      outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
-      value: 0.002
+      value: 0
       inSlope: -0.002000801
       outSlope: -0.002000801
       tangentMode: 0
@@ -55943,7 +55951,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.027777778
       inSlope: 0
       outSlope: 0
       tangentMode: 0
