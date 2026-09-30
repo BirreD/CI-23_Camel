@@ -41260,7 +41260,7 @@ MonoBehaviour:
   spoolRate: 500
   startupRate: 200
   fuelConsumptionMin: 0.05
-  fuelConsumptionMax: 0.58
+  fuelConsumptionMax: 0.46
   damageThreshold: 10
   criticalParts:
   - {fileID: 114364392939154294}

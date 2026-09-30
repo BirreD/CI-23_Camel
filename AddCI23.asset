@@ -20,3 +20,13 @@ MonoBehaviour:
   - hangarUnitJsonKey: shelter1
     hangarNames:
     - shelter1
+  - hangarUnitJsonKey: AssaultCarrier1
+    hangarNames:
+    - hangar_R1
+    - hangar_R2
+    - hangar_R3
+  - hangarUnitJsonKey: FleetCarrier1
+    hangarNames:
+    - hangar_R2
+    - hangar_R1
+    - hangar_R3
