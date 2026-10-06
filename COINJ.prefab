@@ -40416,7 +40416,7 @@ Transform:
   - {fileID: 4764702798633219}
   - {fileID: 4621785091199902}
   - {fileID: 4668567464662426}
-  - {fileID: 4242160222788566211}
+  - {fileID: 2534374187831047331}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!114 &114291547872775986
@@ -41251,7 +41251,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   nozzles:
-  - {fileID: 6139384719095441565}
+  - {fileID: 8422320265324711109}
   vectoringTransforms: []
   turbineMaxPitch: 2
   minRPM: 600
@@ -41265,7 +41265,7 @@ MonoBehaviour:
   criticalParts:
   - {fileID: 114364392939154294}
   - {fileID: 114693745152320694}
-  - {fileID: 9110878726129713884}
+  - {fileID: 3794086985854947858}
   failureMessage: ENGINE FIRE
   failureMessageAudio: {fileID: 8300000, guid: c058365f87c1d4849b72e586b8be3422, type: 3}
 --- !u!82 &2372385485472783948
@@ -53251,13 +53251,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734990437363784429}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.012943}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.000000021855694, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00335}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9146978675763219477}
-  m_Father: {fileID: 4242160222788566211}
+  m_Father: {fileID: 2534374187831047331}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1197227051833999137
 GameObject:
@@ -55666,7 +55666,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3044759522734635139
+--- !u!1 &2909386150032895513
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55674,50 +55674,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4242160222788566211}
-  - component: {fileID: 341618846206041459}
-  - component: {fileID: 1972012090882471296}
-  - component: {fileID: 6139384719095441565}
-  - component: {fileID: 9110878726129713884}
-  - component: {fileID: 478756760581269106}
+  - component: {fileID: 2534374187831047331}
+  - component: {fileID: 1478373030216973062}
+  - component: {fileID: 3702182342686232524}
+  - component: {fileID: 8422320265324711109}
+  - component: {fileID: 3794086985854947858}
+  - component: {fileID: 9092141930590018861}
   m_Layer: 0
-  m_Name: Nozzle
+  m_Name: CamelNozzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4242160222788566211
+--- !u!4 &2534374187831047331
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3044759522734635139}
+  m_GameObject: {fileID: 2909386150032895513}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.009, y: 0.065, z: 4.653}
-  m_LocalScale: {x: 710, y: 710, z: 500}
+  m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.059, z: -1.827}
+  m_LocalScale: {x: 70, y: 70, z: 60}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2765514246394855738}
   m_Father: {fileID: 4505682267929073}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &341618846206041459
+--- !u!33 &1478373030216973062
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3044759522734635139}
-  m_Mesh: {fileID: 4300000, guid: 8f5051c0df0cfd54192aea7774438eb1, type: 2}
---- !u!23 &1972012090882471296
+  m_GameObject: {fileID: 2909386150032895513}
+  m_Mesh: {fileID: 2534964839176971238, guid: d7c3d05e2a2e2ba458fdb273d930b3fe, type: 3}
+--- !u!23 &3702182342686232524
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3044759522734635139}
+  m_GameObject: {fileID: 2909386150032895513}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -55731,7 +55731,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 392e9ac2f568a25448dc0f8dd39df776, type: 2}
+  - {fileID: 2100000, guid: 7eed48b9b9e9ec74d8be50336d15dc4e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -55753,19 +55753,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6139384719095441565
+--- !u!114 &8422320265324711109
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3044759522734635139}
+  m_GameObject: {fileID: 2909386150032895513}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -36846267, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  part: {fileID: 9110878726129713884}
+  part: {fileID: 3794086985854947858}
   turbojet: {fileID: 891786565192901990}
   engine: {fileID: 0}
   failureEffect: {fileID: 1709254077376921, guid: fb4722f08674da448845d9105e3efadf,
@@ -55774,9 +55774,9 @@ MonoBehaviour:
   heatHaze:
     system: {fileID: 2117275135995977917}
     sizeMin: 1
-    sizeMax: 1.5
-    speedMin: 5
-    speedMax: 60
+    sizeMax: 2
+    speedMin: 7
+    speedMax: 68
     opacityMin: 0.45
     opacityMax: 0.3
     lifeMin: 1.5
@@ -55793,15 +55793,15 @@ MonoBehaviour:
   glow: {fileID: 0}
   vectorTransforms: []
   afterburners: []
-  thrustAudio: {fileID: 478756760581269106}
+  thrustAudio: {fileID: 9092141930590018861}
   priority: 0
---- !u!114 &9110878726129713884
+--- !u!114 &3794086985854947858
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3044759522734635139}
+  m_GameObject: {fileID: 2909386150032895513}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1340194330, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
@@ -55861,13 +55861,13 @@ MonoBehaviour:
   buoyancy: 2
   airflowChanneling: 0
   airfoil: -1
---- !u!82 &478756760581269106
+--- !u!82 &9092141930590018861
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3044759522734635139}
+  m_GameObject: {fileID: 2909386150032895513}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300000, guid: 8c0913c82d32568468002eddcd5d81a6,
