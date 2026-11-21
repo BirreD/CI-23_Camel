@@ -221,7 +221,28 @@ MonoBehaviour:
   StandardLoadouts: []
   DefaultFuelLevel: 0.3
   liveries:
-  - name: Default
+  - name: BDF grey
+    faction: {fileID: 11400000, guid: 4dafaaed67402ed4b92faf88b5051877, type: 2}
+    assetReference:
+      m_AssetGUID: 19e8c6f40d0e5314b829498d827b44fc
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - name: PALA grey
+    faction: {fileID: 11400000, guid: 980ce9a2410802b4e8897f4271a88ac9, type: 2}
+    assetReference:
+      m_AssetGUID: 7cfeb0c050e5e5c4595b7885701e0d1b
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - name: PALA black
+    faction: {fileID: 11400000, guid: 980ce9a2410802b4e8897f4271a88ac9, type: 2}
+    assetReference:
+      m_AssetGUID: 3842d96341cd14c4ab0060797c89b0e9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 1
+  - name: Last minute
     faction: {fileID: 0}
     assetReference:
       m_AssetGUID: 8ba4503995fb36e4bb15ee418020b136
